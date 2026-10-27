@@ -237,14 +237,6 @@ The results demonstrate that machine learning can provide useful and relatively 
 
 The final model can serve as a foundation for a practical automotive price estimation system, with opportunities for further improvement through additional features and market data.
 
----
 
-## 👩‍💻 Author
 
-**Amanda Amalia Putriprayogi**
-
-Industrial Engineering Graduate — Universitas Indonesia  
-Data Science Full-Time Bootcamp — Hacktiv8
-
-**Project Type:** Supervised Machine Learning — Regression
 
