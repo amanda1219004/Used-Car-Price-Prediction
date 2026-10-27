@@ -1,0 +1,5 @@
+URL for Streamlit app:
+https://used-car-selling-price-prediction-amanda1219004-al7bgmzxywjgby.streamlit.app
+
+URL Data set:
+https://www.kaggle.com/datasets/sukhmandeepsinghbrar/car-price-prediction-dataset?resource=download
