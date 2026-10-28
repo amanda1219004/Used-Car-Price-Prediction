@@ -1,9 +1,9 @@
 
-# 🚗 Used Car Selling Price Prediction
+# Used Car Selling Price Prediction
 
 ### End-to-End Machine Learning | Regression | Gradient Boosting
 
-## 📌 Project Overview
+## Project Overview
 
 This project develops a machine learning model to predict **used car selling prices** based on vehicle characteristics such as age, mileage, fuel type, transmission, engine capacity, and other relevant features.
 
@@ -11,7 +11,7 @@ The objective is to provide a **data-driven reference price** that can help buye
 
 Multiple regression algorithms were evaluated, and a **Gradient Boosting Regressor** was selected as the final model based on its predictive performance and generalization ability.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Explore and analyze factors influencing used car selling prices.
 - Perform data cleaning, feature engineering, and preprocessing.
@@ -20,7 +20,7 @@ Multiple regression algorithms were evaluated, and a **Gradient Boosting Regress
 - Optimize the selected model using hyperparameter tuning.
 - Build a reusable prediction pipeline for inference on unseen data.
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Car Price Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/sukhmandeepsinghbrar/car-price-prediction-dataset)
 
@@ -40,7 +40,7 @@ The dataset contains used car information, including:
 
 The target variable is `selling_price`, measured in Indian Rupees (₹).
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Several insights were identified during EDA:
 
@@ -59,7 +59,7 @@ Several insights were identified during EDA:
 5. **Outliers**
    - Several numerical features contain outliers, requiring appropriate preprocessing techniques.
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The preprocessing workflow includes:
 
@@ -92,7 +92,7 @@ The dataset was divided into:
 - **80% Training Data**
 - **20% Testing Data**
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 Several regression algorithms were developed and evaluated:
 
@@ -110,7 +110,7 @@ Although Random Forest achieved a lower training error, it showed a larger perfo
 
 Gradient Boosting demonstrated more consistent performance and was selected for further optimization.
 
-## 🔧 Hyperparameter Tuning
+## Hyperparameter Tuning
 
 Hyperparameter tuning was performed using `RandomizedSearchCV` with:
 
@@ -130,7 +130,7 @@ Hyperparameter tuning was performed using `RandomizedSearchCV` with:
 
 This indicates strong predictive performance across the cross-validation folds.
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 The final Gradient Boosting model was evaluated before and after hyperparameter tuning.
 
@@ -152,7 +152,7 @@ The final Gradient Boosting model was evaluated before and after hyperparameter 
 
 Despite the increased performance gap, the tuned Gradient Boosting model was selected as the final model because it achieved better results on unseen test data.
 
-## 💡 Business Implications
+## Business Implications
 
 The model can support used car pricing decisions by providing an initial estimated selling price based on vehicle characteristics.
 
@@ -164,14 +164,14 @@ The model can support used car pricing decisions by providing an initial estimat
 
 However, predictions should be treated as **reference prices**, not definitive market valuations.
 
-## ⚠️ Model Limitations
+## Model Limitations
 
 - Some observations still produce relatively large prediction errors.
 - Hyperparameter tuning increases the train-test performance gap.
 - Important factors such as vehicle physical condition, accident history, service history, location, and current market demand are not included in the dataset.
 - Predictions may be less reliable for vehicles that differ substantially from the training data.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Incorporate additional vehicle condition and market-related features.
 - Explore alternative regression algorithms and ensemble techniques.
@@ -179,7 +179,7 @@ However, predictions should be treated as **reference prices**, not definitive m
 - Evaluate model performance on more recent market data.
 - Monitor prediction accuracy as vehicle prices change over time.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Programming Language**
 - Python
@@ -200,7 +200,7 @@ However, predictions should be treated as **reference prices**, not definitive m
 - Visual Studio Code
 - Git & GitHub
 
-## 🔮 Model Inference
+## Model Inference
 
 The final trained model is saved and can be used to predict selling prices for new vehicle data.
 
@@ -223,7 +223,7 @@ Predicted Selling Price: ₹650,000.00
 
 *Note: The example is illustrative. Actual predictions depend on the vehicle characteristics.*
 
-## 🏁 Conclusion
+## Conclusion
 
 This project successfully developed an end-to-end machine learning solution for predicting used car selling prices.
 
